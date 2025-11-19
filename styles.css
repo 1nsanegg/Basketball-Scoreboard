@@ -1,0 +1,30 @@
+body {
+  background-image: url(images/background-image.png);
+  width: 1440px;
+  height: 900px;
+  background-repeat: no-repeat;
+  margin: 20px auto;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 720px;
+  height: 495px;
+  background-image: url(images/board_component_with_lion_logo\ 1.png);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#user-name {
+  font-family: "BACK TO SCHOOL PERSONAL USE", sans-serif;
+  font-size: 65px;
+  font-weight: normal;
+}
+.timer {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 70px;
+  
+}
