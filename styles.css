@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "ErbosDraco";
+  src: url(fonts/erbos-draco-1st-nbp.otf.woff2);
+}
+
 body {
   background-image: url(images/background-image.png);
   width: 1440px;
@@ -22,9 +27,41 @@ body {
   font-family: "BACK TO SCHOOL PERSONAL USE", sans-serif;
   font-size: 65px;
   font-weight: normal;
+  margin: 0 auto;
+  width: 146px;
+  height: 65px;
+  line-height: 50px; /* smaller than height → text moves to top */
 }
 .timer {
   font-family: "Cursed Timer ULiL", sans-serif;
   font-size: 70px;
+  height: 210px;
+  margin-top: 285px;
+}
+
+.score {
+  font-family: 'ErbosDraco', sans-serif;
+  font-size: 150px;
+  font-weight: 400;
+  margin: 16px auto 30px auto;
   
+} 
+
+.Team-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 291px;
+  margin-top: 204px;
+}
+button {
+  font-family: 'ErbosDraco', sans-serif;
+  font-size: 50px;
+  padding: 0;
+  border: none;
+  color: red;
+}
+.btn-score {
+  display: flex;
+  gap: 20px
 }
