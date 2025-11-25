@@ -20,16 +20,19 @@
         <h1 id="user-name">Home</h1>
         <h1 class="score" id="homeScore">0</h1>
         <div class="btn-score">
-          <button onclick='addPoints("home", 1)'>+1</button><button>+2</button
-          ><button>+3</button>
+          <button data-team="home" data-points="1">+1</button>
+          <button data-team="home" data-points="2">+2</button>
+          <button data-team="home" data-points="3">+3</button>
         </div>
       </div>
-      <div class="timer">00:00</div>
+      <div id="timer">00:00</div>
       <div class="Team-score">
         <h1 id="user-name">Guest</h1>
         <h1 class="score" id="guestScore">0</h1>
         <div class="btn-score">
-          <button>+1</button><button>+2</button><button>+3</button>
+          <button data-team="guest" data-points="1">+1</button>
+          <button data-team="guest" data-points="2">+2</button>
+          <button data-team="guest" data-points="3">+3</button>
         </div>
       </div>
     </div>

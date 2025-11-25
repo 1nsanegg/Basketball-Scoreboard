@@ -32,7 +32,7 @@ body {
   height: 65px;
   line-height: 50px; /* smaller than height → text moves to top */
 }
-.timer {
+#timer {
   font-family: "Cursed Timer ULiL", sans-serif;
   font-size: 70px;
   height: 210px;
